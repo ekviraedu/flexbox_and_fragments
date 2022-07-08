@@ -1,0 +1,68 @@
+.App {
+  font-family: sans-serif;
+  text-align: center;
+}
+
+.flexDemoStyle {
+  background-color: cadetblue;
+  display: flex;
+  flex-wrap: wrap;
+}
+
+.flexDemoStyle div {
+  background-color: chocolate;
+  padding: 1%;
+  width: 100px;
+  height: 50px;
+  margin: 10px;
+  font-size: 30px;
+  text-align: center;
+}
+
+#div1 {
+  order: 3;
+  flex-grow: 2;
+}
+
+#div2 {
+  order: 4;
+  flex-grow: 4;
+}
+
+#div3 {
+  order: 5;
+  flex-grow: 1;
+}
+
+#div4 {
+  order: 6;
+  flex-grow: 8;
+}
+
+#div5 {
+  order: 2;
+  flex-grow: 1;
+}
+
+#div6 {
+  order: 1;
+  flex-grow: 1;
+}
+
+.row {
+  display: flex;
+}
+
+.qwerty {
+  display: flex;
+  justify-content: center;
+}
+
+.col {
+  flex: 1;
+}
+
+.box {
+  min-width: 100px;
+  min-height: 100px;
+}
